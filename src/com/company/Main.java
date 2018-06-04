@@ -11,6 +11,10 @@ public class Main {
         int total= myscore.changeScore();
         System.out.println(total);
 
+        Maximum maximum=new Maximum();
+       double result= maximum.max(85, 56);
+        System.out.println("The maximum number is : "+result);
+
 
 
     }
